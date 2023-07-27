@@ -10,7 +10,7 @@ module.exports = {
   },
   // 
   "hooks": {
-    "after:git:release": "echo git更新成功",
+    // "after:git:release": "echo git更新成功",
     "after:bump": "echo 更新版本成功 ${version}"
   },
   "plugins": { 
